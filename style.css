@@ -1,0 +1,100 @@
+/* GENERAL */
+body {
+    margin: 0;
+    background: #FCFEFE;
+}
+
+h3 {
+    text-align: center;
+    color: #51127C;
+}
+
+button {
+    width: 177px;
+    height: 44px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background: #008C8A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    gap: 10px;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    background: #51127C;
+    color: white;
+    padding: 10px;
+}
+
+.main-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background: url('images/heroimg.png') center/cover;
+    height: 385px;
+    color: #51127C;
+    text-align: center;
+}
+
+.hero-content{
+    padding: 100px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 51px;
+}
+
+/* LEARN MORE SECTION */
+
+.learn-more {
+    text-align: center;
+    padding: 50px;
+}
+
+.learn-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.learn-more-content-box {
+    max-width: 350px;
+    text-align: left;
+}
