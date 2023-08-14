@@ -84,6 +84,14 @@ nav ul {
 nav a {
     text-decoration: none;
     color: white;
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s, text-shadow 0.3s;
+}
+
+nav a:hover {
+    transform: translateY(-3px) translateZ(0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* HERO SECTION */
