@@ -78,9 +78,13 @@ body {
 }
 
 h3 {
-    text-align: center;
-    color: #51127C;
+    font-family: Montserrat;
+    font-size: 32px;
     font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #423749;
 }
 
 h4 {
