@@ -94,7 +94,7 @@ h4 {
 }
 
 button {
-    width: 177px;
+    width: 184px;
     height: 44px;
     padding-left: 20px;
     padding-right: 20px;
@@ -106,7 +106,16 @@ button {
     font-size: 15px;
     color: white;
     font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
 }
+
+button:hover {
+    background-color: #007575; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transform: translateY(-3px) translateZ(0);
+  }
 
 /* HEADER */
 
