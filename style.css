@@ -493,6 +493,49 @@ h1 {
     border-radius: 10px 10px 10px 10px;
 }
 
+/* Footer Styling */
+.affiliates {
+   width: 1366;
+   height: 157;
+   margin-top: 20px;
+   text-align: center;
+   background-color: rgba(81, 18, 124, 0.6); 
+}
+
+  .affiliates-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .affiliates-container img {
+    margin: 0 10px; 
+    margin-bottom: 50px;
+  }
+
+.affiliates p {
+    color: #FCFEFE;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.affiliates-container img:hover {
+    transform: translateY(-5px) translateZ(0);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.footer-elements{
+    height: 427px;
+    background-color: #51127C;
+}
+
+
+
+
 
 
 
